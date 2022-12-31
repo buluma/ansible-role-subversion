@@ -4,7 +4,7 @@ Install subversion and create repositories on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
 |------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-subversion/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-subversion/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-subversion)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/subversion)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/subversion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/pulls/)|
+|[![github](https://github.com/buluma/ansible-role-subversion/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-subversion/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-subversion/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-subversion)|[![quality](https://img.shields.io/ansible/quality/61254)](https://galaxy.ansible.com/buluma/subversion)|[![downloads](https://img.shields.io/ansible/role/d/61254)](https://galaxy.ansible.com/buluma/subversion)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-subversion.svg)](https://github.com/buluma/ansible-role-subversion/pulls/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -19,7 +19,7 @@ This example is taken from `molecule/default/converge.yml` and is tested on each
   roles:
     - role: buluma.subversion
       subversion_repositories:
-        - name: my_svn_repository
+        - name: first_svn_repository
 ```
 
 The machine needs to be prepared. In CI this is done using `molecule/default/prepare.yml`:
